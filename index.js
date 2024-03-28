@@ -22,7 +22,7 @@ function displayMenuItems(menu) {
     items.forEach((item) => {
       const listItem = document.createElement("li");
       listItem.textContent = item;
-      listItem.style.cursor = "pointer"; // Add pointer cursor on hover
+      listItem.style.cursor = "pointer"; // cursor on hover
       listItem.addEventListener("click", () => addToOrder(item));
       itemList.appendChild(listItem);
     });
